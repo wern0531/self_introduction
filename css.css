@@ -1,3 +1,43 @@
 .wrap{
     background-color: azure;
+    display: flex;
+    margin: auto;
+    width: 1024px;
+    height: 350px;
+}
+
+.content{
+    padding: 50px;
+}
+
+.text{
+    height: 80%;
+    padding-left: 30%;
+    margin-top: 10%;
+}
+
+.name{
+    color: green;
+}
+
+.icon1, .icon2, .icon3,  .icon4{
+    margin-left: 10px;
+}
+
+.img{
+    width: 50%;
+    position: relative;
+}
+
+img{
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
 }
